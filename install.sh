@@ -5,6 +5,7 @@ cd ~
 sudo pacman -S - < pkglist
 sudo pip3 install pywal
 sudo pip3 install pywalfox
+sudo pip3 install prettytable
 sudo pywalfox install
 mv bashrc .bashrc
 mv xinitrc .xinitrc
