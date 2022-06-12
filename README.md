@@ -1,4 +1,4 @@
-# NewInstall - Sky
+# Get a riced i3 distro after new install
 
 1. Install arch + git
 2. Clone this repo
