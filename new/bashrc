@@ -18,6 +18,7 @@ alias c='clear'
 alias d='(killall dunst&dunst &)'
 alias ls='ls --color=auto'
 alias f+='(c&neofetch)'
+alias cw='python ~/.scripts/compileWords.py'
 alias x='exit'
 #-----------------------------------------------------------
 
