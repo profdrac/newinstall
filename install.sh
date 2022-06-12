@@ -13,6 +13,7 @@ mv config .config
 mv scripts .scripts
 chmod +x .scripts/*.sh
 chmod +x .config/polybar/launch.sh
+mkdir Documents/words
 wal -i Pictures/sky.jpg
 ln -sf ~/.cache/wal/dunstrc ~/.config/dunst/dunstrc
 chmod +x ~/.scripts/Zathura-Pywal/install.sh
