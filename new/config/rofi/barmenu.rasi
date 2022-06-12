@@ -1,0 +1,78 @@
+/*
+*----------------
+*   ROFI :: BAR
+*----------------
+*/
+
+
+configuration {
+    disable-history:                false;
+	sidebar-mode: 					false;
+}
+
+@import "~/.cache/wal/colors-rofi-dark.rasi"
+
+element-text, element-icon {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
+* {
+    background-color:               @background-alt;
+    text-color:                     @foreground;
+}
+
+window {
+    transparency:                   "real";
+    border-radius:                  0px;
+    location:                       north;
+    x-offset:                       900px;
+    y-offset:                       25px;
+    width:                          200px;
+}
+
+listview {
+	background-color: @background;
+   padding: 			    5px;
+    columns:                        3;
+    lines:                          1;
+    margin-top:                     -5px;
+    spacing:                        5px;
+    cycle:                          false;
+    layout:                         vertical;
+    dynamic:                        true;
+}
+
+mainbox {
+    background-color:               @background-alt;
+    children:                       [ listview ];
+}
+
+element {
+    background-color:               @accent;
+    text-color:                     @background;
+    orientation:                    vertical;
+    border-radius:                  0px;
+}
+
+element-text {
+    font:			                "Symbols Nerd Font 12";
+    expand:                         false;
+    horizontal-align:               0.5;
+    vertical-align:                 0.5;
+    margin:                         2px 2px 2px 2px;
+    padding:                        5px 5px 5px 5px;
+}
+
+element selected {
+    background-color:               @highlight;
+    text-color:                     @background;
+    border:                  		1px;
+    border-radius:                  0px;
+    border-color:                  	@background;
+}
+
+
+/*
+ * vim: ft=scss
+ */

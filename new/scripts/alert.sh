@@ -1,0 +1,1 @@
+paplay ~/.scripts/doraemon.ogg

@@ -1,0 +1,25 @@
+#
+# ~/.bashrc
+#
+
+# Restore wal colorscheme
+(cat ~/.cache/wal/sequences &)
+
+# Add my scripts path to PATH
+export PATH="/home/ashu/.scripts:/home/ashu/.local/bin:$PATH"
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+# Aliases---------------------------------------------------
+alias ..='cd ..'
+alias ~='cd ~'
+alias c='clear'
+alias d='(killall dunst&dunst &)'
+alias ls='ls --color=auto'
+alias f+='(c&neofetch)'
+alias x='exit'
+#-----------------------------------------------------------
+
+# Set Arch prompt 
+PS1='\e[0;34m\W\e[m \e[0;35m \e[m '
