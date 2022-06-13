@@ -6,4 +6,4 @@
 4. ./install.sh
 5. Riced arch is ready!
 
-![](preview.jpg)
+![](preview0.jpg)
