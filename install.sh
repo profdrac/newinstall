@@ -14,7 +14,7 @@ mv scripts .scripts
 chmod +x .scripts/*.sh
 chmod +x .config/polybar/launch.sh
 mkdir Documents/words
-wal -i Pictures/sky.jpg
+wal -i Pictures/twigs.jpg
 ln -sf ~/.cache/wal/dunstrc ~/.config/dunst/dunstrc
 chmod +x ~/.scripts/Zathura-Pywal/install.sh
 sudo ~/.scripts/Zathura-Pywal/./install.sh
