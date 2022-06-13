@@ -1,19 +1,17 @@
 # run as sudo
-mv new/* ~
-rm new
+cp -r new/* ~
 cd ~
 sudo pacman -S - < pkglist
 sudo pip3 install pywal
 sudo pip3 install pywalfox
 sudo pip3 install prettytable
-sudo pywalfox install
 mv bashrc .bashrc
 mv xinitrc .xinitrc
 mv config .config
 mv scripts .scripts
 chmod +x .scripts/*.sh
 chmod +x .config/polybar/launch.sh
-mkdir Documents/words
+mkdir ~/Documents/words
 wal -i Pictures/twigs.jpg
 ln -sf ~/.cache/wal/dunstrc ~/.config/dunst/dunstrc
 chmod +x ~/.scripts/Zathura-Pywal/install.sh
