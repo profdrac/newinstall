@@ -1,6 +1,6 @@
 # Get a riced arch(i3-gaps) after new install
 
-1. Install arch + git
+1. Install arch (mininal)+ git
 2. Clone this repo
 3. chmod install.sh
 4. ./install.sh
