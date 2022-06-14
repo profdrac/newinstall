@@ -6,6 +6,7 @@ sudo pip3 install pywal
 sudo pip3 install pywalfox
 sudo pip3 install prettytable
 mv bashrc .bashrc
+mv bash_profile .bash_profile
 mv xinitrc .xinitrc
 mv config .config
 mv scripts .scripts
