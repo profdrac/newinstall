@@ -19,6 +19,7 @@ alias d='(killall dunst&dunst &)'
 alias ls='ls --color=auto'
 alias f+='(c&neofetch)'
 alias cw='python ~/.scripts/compileWords.py'
+alias t='python ~/.scripts/thememe.py'
 alias x='exit'
 #-----------------------------------------------------------
 
