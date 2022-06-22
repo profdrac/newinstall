@@ -21,5 +21,5 @@ ln -sf ~/.cache/wal/dunstrc ~/.config/dunst/dunstrc
 sudo pacman -S virtualbox-guest-utils
 sudo systemctl enable vboxservice
 sudo usermod -a -G vboxsf ashu
-echo "All done! Reboot, startx and enjoy!"
+echo "All done! Reboot and enjoy!"
 # install pywalfox plugin
