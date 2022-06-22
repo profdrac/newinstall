@@ -7,6 +7,7 @@ git
 htop
 i3-gaps
 imagemagick
+kitty
 libnotify
 neofetch
 neovim
@@ -20,7 +21,6 @@ rofi
 ttf-jetbrains-mono
 ttf-nerd-fonts-symbols-mono
 ueberzug
-vim
 virtualbox-guest-utils
 xclip
 xf86-video-vmware
