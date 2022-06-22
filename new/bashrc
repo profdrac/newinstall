@@ -21,6 +21,7 @@ alias f+='(c&neofetch)'
 alias cw='python ~/.scripts/compileWords.py'
 alias t='python ~/.scripts/thememe.py'
 alias x='exit'
+alias vim='nvim'
 #-----------------------------------------------------------
 
 # Set Arch prompt 
