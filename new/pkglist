@@ -1,4 +1,3 @@
-alacritty
 alsa-utils
 cmus
 dunst
@@ -10,6 +9,7 @@ i3-gaps
 imagemagick
 libnotify
 neofetch
+neovim
 picom
 polkit
 polybar
