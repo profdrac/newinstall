@@ -15,12 +15,12 @@ picom
 polkit
 polybar
 python
-python-pip
+python-pipx
 ranger
 rofi
 thunar
 ttf-jetbrains-mono
-ttf-nerd-fonts-symbols-1000-em
+ttf-nerd-fonts-symbols-common
 ueberzug
 virtualbox-guest-utils
 xclip
