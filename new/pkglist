@@ -15,7 +15,8 @@ picom
 polkit
 polybar
 python
-python-pipx
+python-pip
+python-pywal
 ranger
 rofi
 thunar
