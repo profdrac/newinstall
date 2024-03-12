@@ -2,9 +2,9 @@
 cp -r new/* ~
 cd ~
 sudo pacman -S - < pkglist
-pipx install pywal
-pipx install pywalfox
-pipx install prettytable
+#pipx install pywal
+#pipx install pywalfox
+#pipx install prettytable
 mv bashrc .bashrc
 mv bash_profile .bash_profile
 mv xinitrc .xinitrc
